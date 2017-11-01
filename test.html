@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,body{
+			height: 100%;
+		}
+		.test{
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="test"></div>
+	<script>
+		window.onload=function(){
+			window.onscroll=function(){
+				var test=document.documentElement.scrollTop||document.body.scrollTop;
+				console.log(test);
+			}
+			
+		}
+	</script>
+</body>
+</html>

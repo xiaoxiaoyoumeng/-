@@ -1,0 +1,118 @@
+html,body{
+	height: 100%;
+}
+body{
+	overflow: hidden;
+}
+.list_container{
+	width: 100%;
+	height: 100%;
+}
+.list_header{
+	background: #eee;
+	height: 45px;
+	width: 100%;
+	position: relative;
+	padding-left: 40px;
+	padding-right: 50px;
+	z-index: 999;
+}
+.list_header a:nth-child(1){
+	font-size: 35px;
+	color: #ccc;
+	line-height: 45px;
+	font-family: '宋体';
+	position: absolute;
+	left: 10px;
+}
+.list_header input{
+	width: 100%;
+	height: 31px;
+	border: 1px solid #ccc;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+.list_header a:nth-child(3){
+	display: block;
+	width: 20px;
+	height: 24px;
+	background: url("../images/sprites.png");
+	background-size: 200px 200px;
+	background-position: -60px 0;
+	position: absolute;
+	right: 20px;
+	top: 12.5px;
+
+
+}
+
+/*内容*/
+.main{
+	width: 100%;
+	height: 100%;
+}
+.main .main_left{
+	width: 90px;
+	height: 100%;
+
+}
+.main .main_left ul{
+	width: 100%;
+}
+.main .main_left ul li{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	
+}
+.main .main_left ul li a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: black;
+}
+.main .main_left ul .current{
+	border-right: none;
+}
+.main .main_left ul .current a{
+	color: red;
+	
+}
+/*右部*/
+.main .main_right{
+	overflow: hidden;
+	padding: 10px 10px 0;
+}
+.main .main_right .right_banner img{
+	display: block;
+	width: 100%;
+}
+.main .main_right h3{
+	margin: 10px 0;
+	font-size: 12px;
+}
+.main .main_right ul{
+	width: 100%;
+}
+.main .main_right ul li{
+	width: 33.3333%;
+	float: left;
+}
+.main .main_right ul li a{
+	display: block;
+	width: 100%;
+}
+.main .main_right ul li a img{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.main .main_right ul li a p{
+	text-align: center;
+	color: black;
+	padding: 4px 0;
+	font-size: 13px;
+}
